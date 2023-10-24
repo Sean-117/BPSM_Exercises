@@ -1,0 +1,7 @@
+sequence="AT"
+print("number of A:",trequence.count("A"))
+print("number of B:",sequence.count("B"))
+print(sequence.count("A")+sequence.count("B")/len(sequence))
+
+
+
