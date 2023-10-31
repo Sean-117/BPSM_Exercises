@@ -1,0 +1,4 @@
+# See whats left if we remove all expected bases
+def count_undetermined_3(dna):
+    total_undetermined = len(dna.upper().replace('A',"").replace('T',"").replace('G',"").replace('C',""))
+    return total_undetermined
